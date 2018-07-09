@@ -25,6 +25,9 @@ ogit:Task
 		ogit:description
 		ogit:status
 		ogit:positionNumber
+		ogit:type
+		ogit:question
+		ogit:response
 	);
 	ogit:indexed-attributes (
 		ogit:name
@@ -41,6 +44,12 @@ ogit:Task
 			dcterms:date "2015-09-10";
 			dcterms:description "add attribute ogit/positionNumber";
 			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-09-10";
+			dcterms:description "in order to use Task type for engine api, add attribute ogit/question and ogit/response.";
+			dcterms:creator "Liudmyla Nechepurenko";
 		]
 	);
 .
